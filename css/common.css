@@ -1,0 +1,19 @@
+body{
+    width:100%;
+    height:100%;
+    background-color:#EFF4FB;
+}
+
+.inner{
+    width:100%;
+    max-width:720px;
+    margin:0 auto;
+}
+
+.section{
+    margin-top:24px;
+    padding:24px;
+    background:#fff;
+    border-radius:8px;
+    box-shadow:3px 3px 20px rgba(173, 180,188, 0.25);
+}

@@ -7,10 +7,7 @@
         <link href="css/common.css" rel="stylesheet">
         <link href="css/component.css" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/common.js"></script>
-        <script type="text/javascript">
-            window.location = "main.html";
-        </script>
+        
     </head>
 
     <body>
@@ -21,7 +18,7 @@
                         <h2>토글 아이콘</h2>
                         <button type="button" class="btn_like btn btn_toggle ico ico_36"><span class="blind">좋아요</span></button>
                     
-                        <button type="button" class="btn_scrap btn btn_toggle ico ico_36"><span class="blind">좋아요</span></button>
+                        <button type="button" class="btn_scrap btn btn_toggle ico ico_36" id="btnScrap"><span class="blind">스크랩</span></button>
                     </div>
                     <!--//section-->
 
@@ -31,8 +28,15 @@
                     </div>
                     <!--//section-->
                     
+                    <div class="section">
+                        
+                        <button class="btn" id="btnScrap">Show Notification</button>
+                    </div>                    
                 </div>
             </div>
         </div>
+
+        <div id="toasts"></div>
+        <script src="js/common.js"></script>
     </body>
 </html>
