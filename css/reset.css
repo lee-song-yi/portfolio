@@ -10,7 +10,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button {
+time, mark, audio, video, button{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -18,8 +18,10 @@ time, mark, audio, video, button {
 	font: inherit;
     font-family: inherit;
 	line-height: inherit;
+	color:inherit;	
 	vertical-align: baseline;
     background:none;
+	
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -29,7 +31,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1.5;
     font-size:15px;
-    color:#;
+	color:#3c3f44;
 }
 ol, ul {
 	list-style: none;
@@ -49,4 +51,8 @@ table {
 
 button {
     cursor: pointer;
+}
+
+img{
+	max-width:100%;
 }
